@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Alfred M. Porcales" />
+    <meta
+      name="text-Description"
+      content="this page contains All the things I am learning how to create as I learn HTML." />
+    <link rel="icon" href="https://i.ibb.co/F4smDCM/5024509.png" />
+    <title>My First HTML Page</title>
+  </head>
+  <body>
+    <div class="content-Container">
+      <a href="https://imgbb.com/"
+        ><img
+          src="https://i.ibb.co/F4smDCM/5024509.png"
+          alt="5024509"
+          height="200px"
+      /></a>
+
+      <h1>Wellcome to My HTML page</h1>
+      <hr width="300" size="5" color="000000" />
+      <hr width="250" size="5" color="000000" />
+      <hr width="200" size="5" color="000000" />
+
+      <div class="text-Description">
+        <p>
+          As an aspiring web developer <br />
+          I strongly desire to learn and master the art of creating captivating
+          and user-friendly websites and web applications. I envision myself as
+          a creator who can translate ideas and designs into functional and
+          interactive digital experiences that engage and delight users.
+        </p>
+        <p>
+          As an aspiring web developer, I strongly desire to learn and master
+          the art of creating captivating and user-friendly websites and web
+          applications. I envision myself as a creator who can translate ideas
+          and designs into functional and interactive digital experiences that
+          engage and delight users. In my pursuit of knowledge, I understand the
+          importance of staying curious and open-minded. The field of web
+          development is constantly evolving, with new frameworks, libraries,
+          and tools emerging regularly. I am eager to embrace these changes and
+          continuously update my skills to stay at the forefront of the
+          industry.
+        </p>
+      </div>
+    </div>
+
+    <div class="about-list">
+      <div class="about-language">
+        <h2>🕵Programming Language I Want To Learn💻</h2>
+        <ol>
+          <li>JavaScript</li>
+          <li>TypeScript</li>
+          <li>Node.js</li>
+        </ol>
+      </div>
+      <div class="about-hobbies">
+        <h2>My Hobbies ❤️</h2>
+        <ul>
+          <li>Coding</li>
+          <li>Eating</li>
+          <li>Playing online games</li>
+        </ul>
+      </div>
+    </div>
+    <hr />
+    <div class="table">
+      <table class="table-content">
+        <caption>
+          Usefull Tools And Links I Want To Recommend
+        </caption>
+        <thead>
+          <tr>
+            <th scope="col">Tools</th>
+            <th scope="col">Links</th>
+            <th scope="col">Others</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <a href="https://code.visualstudio.com/" target="_blank"
+                >VSCODE</a
+              >
+            </td>
+            <td>
+              <a href="https://www.freecodecamp.org/" target="_blank"
+                >FREECODECAMP</a
+              >
+            </td>
+            <td><a href="https://github.com/" target="_blank">GITHUB</a></td>
+          </tr>
+          <tr>
+            <td>
+              <a href="https://www.figma.com/" target="_blank">FIGMA</a>
+            </td>
+            <td>
+              <a href="https://www.theodinproject.com/" target="_blank"
+                >THE ODIN PROJECT</a
+              >
+            </td>
+            <td><a href="https://git-scm.com/" target="_blank">GIT</a></td>
+          </tr>
+          <tr>
+            <td><a href="https://trello.com/" target="_blank">TRELLO</a></td>
+            <td>
+              <a
+                href="https://pll.harvard.edu/course/cs50-introduction-computer-science"
+                target="_blank"
+                >CS50 (Harvard University)</a
+              >
+            </td>
+            <td>
+              <a href="https://chat.openai.com/" target="_blank">CHAT GPT</a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+
+      .content-Container {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin: 5rem;
+      }
+      .content-Container h1 {
+        margin: 10px 0px 14px 0px;
+        font-size: clamp(1rem, 2.5vw, 3rem);
+      }
+      .content-Container hr {
+        margin-top: 5px;
+      }
+
+      .content-Container .text-Description {
+        margin-top: 3rem;
+        text-align: center;
+        font-size: 20px;
+      }
+      .about-list {
+        display: flex;
+        flex-direction: column;
+        margin: 50px;
+        align-items: center;
+      }
+      .about-list .about-language h2 {
+        text-align: center;
+        font-size: clamp(1rem, 2.5vw, 2rem);
+      }
+
+      .about-list .about-language ol {
+        display: flex;
+        justify-content: space-between;
+        margin: 20px;
+        list-style-type: none;
+        font-size: clamp(1rem, 2.5vw, 1.5rem);
+        font-weight: 600;
+      }
+
+      .about-list .about-hobbies ul {
+        display: flex;
+        list-style-type: none;
+        font-size: clamp(1rem, 2.5vw, 1.5rem);
+        font-weight: 600;
+      }
+      .about-list .about-hobbies h2 {
+        text-align: center;
+        font-size: clamp(1rem, 2.5vw, 2rem);
+      }
+      .about-list .about-hobbies ul li {
+        margin: 20px;
+      }
+      .table {
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .table caption {
+        margin-bottom: 20px;
+        font-size: clamp(1rem, 2.5vw, 3rem);
+        font-weight: bold;
+      }
+      .table .table-content {
+        border-collapse: collapse;
+        margin: 25px 0;
+        font-size: 1rem;
+        min-width: 400px;
+        overflow: hidden;
+        box-shadow: 0 0 20px rgb(0, 0, 0, 0.15);
+      }
+      .table .table-content a {
+        text-decoration: none;
+      }
+      .table .table-content thead tr {
+        background: #009879;
+        color: #ffff;
+        text-align: center;
+        font-weight: bold;
+      }
+      .table .table-content th,
+      .table .table-content td {
+        padding: 22px 25px;
+      }
+
+      .table-content tbody tr {
+        border-bottom: 1px solid #dad6d6;
+      }
+      .table-content tbody tr:last-of-type {
+        border-bottom: 2px solid #009879;
+      }
+    </style>
+  </body>
+</html>
