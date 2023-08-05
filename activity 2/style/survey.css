@@ -1,0 +1,154 @@
+.disabled{
+    display: none;
+  }
+
+
+
+.survey_input-field{
+    background: var(--text);
+    margin: 3px 0;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    max-height: 65px;
+    transition: max-height 0.5s;
+    overflow: hidden;
+    
+}
+
+
+.survey_input-field-name{
+    background: var(--text);
+    margin: 2px 0;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    max-height: 65px;
+    transition: max-height 0.5s;
+    overflow: hidden;
+    font-size: 1rem;
+    
+    
+}
+.survey_input-field-name label{
+    padding-left: 5px;
+}
+
+
+
+.survey_input-field-name label input{
+    background: transparent;
+    border: 0;
+    outline: 0;
+    padding: 15px 18px;
+    font-size: 1rem;
+   
+}
+
+.survey_input-field label{
+    padding-left: 5px;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    padding: 15px 18px;
+    font-size: 1rem;
+}
+
+
+.survey_input-field label input {
+    background: transparent;
+    border: 0;
+    outline: 0;
+    padding: 0px 13px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.survey_input-field-checkBox{
+    background: var(--text);
+    margin: 3px 0;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+   
+}
+
+.survey_input-field-checkBox p{
+    margin: 5px 0;
+    font-size: 1rem;
+}
+
+.survey_input-field-checkBox .survey_input-field-message {
+    margin-top: 10px;
+    display: flex;
+    
+
+}
+
+.survey_input-field-checkBox .survey_input-field-message label{
+    margin-left: 10px;
+}
+.survey_input-field-checkBox .survey_input-field-message textarea {
+    border: 0;
+    outline: 0;
+    background: transparent;
+    margin-left: 5px;
+    font-size: 1rem;
+
+}
+
+
+
+/* Contact */
+
+
+.contact-input-field{
+    background: var(--text);
+    margin: 10px 0;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    max-height: 65px;
+    transition: max-height 0.5s;
+    overflow: hidden;
+}
+
+.contact-input-field input{
+    background: transparent;
+    border: 0;
+    outline: 0;
+    padding: 15px 18px;
+    font-size: 1rem;
+}
+
+
+.contact-input-field label{
+    padding: 0px 4px 0px 9px;
+}
+
+.contact-textArea{
+    background: var(--text);
+    margin: 10px 0;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    max-height: 309px;
+    transition: max-height 0.5s;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+   
+}
+ 
+
+.contact-textArea textarea{
+    border: 0;
+    outline: 0;
+    background: transparent;
+    margin-left: 5px;
+    font-size: 1rem;
+}
+

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@iconscout/unicons@4.0.8/css/line.min.css" />
+   <link rel="stylesheet" href="./style/style.css">
+   <style>@import url("style/survey.css");</style>
+   <script src="./js/form.js"></script>
+    <title>Assignment 2</title>
+  </head>
+  <nav class="navigation">
+    <a href=""><i class="uil uil-arrow"></i>Logo</a>
+    <div class="nav-container">
+      <a id="login_form">Login form</a>
+      <a id="survey">Survey form</a>  
+      <a id="Contact-from">Contact from</a>
+    </div>
+  </nav>
+    <div class="container">
+     <div class="form-box">
+         <form class="loginContainer" >  
+          <h1 id="tittle">Sign Up</h1>
+          <div class="input-group">
+            <div class="input-field" id="nameField">
+              <i class="uil uil-user-circle"></i>
+              <input type="text" placeholder="Name" />
+            </div>
+            <div class="input-field">
+              <i class="uil uil-envelope"></i>
+              <input type="email" placeholder="Email" />
+            </div>
+            <div class="input-field">
+              <i class="uil uil-lock"></i>
+              <input type="password" placeholder="password" />
+            </div>
+            <p>Forgot password <a href="#">Click Here!</a></p>
+          </div>
+          <div class="btn-field">
+            <button type="Button" id="signupbtn">Sign up</button>
+            <button type="Button" id="signinbtn" class="disable">
+              Sign in
+            </button>
+          </div>
+        </form>  
+        
+
+        <form class="surveyContainer disabled ">
+          <h1>Survey</h1>
+          <div class="survey_input-field-name">
+            <label for="name" class="label-text">Name: <input type="text"placeholder="Name"></label>
+          </div>
+          <div class="survey_input-field">
+            <label for="age">Birth: <input type="date"></label>
+          </div>
+          <div class="survey_input-field">
+            <label for="gender">Gender:</label>
+            <input type="radio"  name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" value="female">
+            <label for="female">Female</label>
+           
+          </div>
+          <div class="survey_input-field-checkBox" >
+            <p>which programming languages do you know?</p>
+            <div>
+              <input type="checkbox" value="HTML">
+              <label for="html"> HTML </label>
+              <input type="checkbox"value="CSS">
+              <label for="css"> CSS</label> 
+              <input type="checkbox" value="JavaScript">
+              <label for="javascript">JavaScript</label><br>
+              <input type="checkbox"  value="python">
+              <label for="python">python</label>
+              <input type="checkbox"  value="Ruby">
+              <label for="ruby">Ruby</label>
+              <input type="checkbox"  value="typescript">
+              <label for="typescript">Typescript</label>
+            </div>
+            <div class="survey_input-field-message">
+              <label for="message">Message:</label>  
+              <textarea name="" id="" cols="30" rows="10" placeholder="message...."></textarea>
+            </div>
+          </div>
+        </form>   
+
+        <form class="contactContainer disabled">
+          <h1>Contact Us</h1>
+          <div class="contact-input-field"><label for="">Name </label><i class="uil uil-user"></i> <input type="text"  placeholder="Name"></div>
+          <div class="contact-input-field"><label for="">Email</label><i class="uil uil-envelope"></i> <input type="email"  placeholder="Email"></div>
+          <div class="contact-textArea">
+            <label for="">Message :</label>
+
+            <textarea placeholder="message....." cols="30" rows="10"></textarea>
+          </div>
+        </form>
+
+  
+      </div> 
+     
+    </div>
+    <script src="./js/login.js">
+
+  
+    </script>
+  </body>
+</html>

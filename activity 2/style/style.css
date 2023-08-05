@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    
+
+}
+
+:root{
+    --text-color: #3c00a0;
+    --bg-color: #ffff; 
+    --text:#eaeaea;
+    
+}
+
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 50, 0.8), rgba(0, 0, 50, 0.8)), url(./asset/1.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+}
+
+.navigation {
+    width: 100%;
+    height: 40px;
+    background: var(--bg-color);  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 60px;
+
+
+}
+
+.navigation a {
+    text-decoration: none;
+    font-size: larger;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+
+ 
+.navigation .nav-container a{
+    margin-left: 0.5rem;
+    padding: 9px 18px;
+    font-size: medium;
+   
+}
+
+.navigation .nav-container a:hover{
+    border-bottom: 1px solid var(--text-color); 
+    padding-bottom: 0;
+    transition: ease 0.5s;
+    
+}
+
+
+
+.form-box {
+    width: 90%;
+    max-width: 450px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background: var(--bg-color);
+    padding: 50px 60px 70px;
+    
+}
+
+.form-box h1 {
+    font-size: 30px;
+    margin-bottom: 60px;
+    color: var(--text-color);
+    position: relative;
+
+
+}
+
+.form-box h1::after {
+    content: '';
+    width: 30px;
+    height: 4px;
+    border-radius: 3px;
+    background: var(--text-color);
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    transform: translate(-50%);
+
+}
+
+.input-field {
+    background: var(--text);
+    margin: 15px 0;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    max-height: 65px;
+    transition: max-height 0.5s;
+    overflow: hidden;
+}
+
+.input-group input {
+    padding: 5px;
+    width: 100%;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    padding: 15px 18px;
+
+}
+
+form p {
+    text-align: center;
+    font-size: 13px;
+}
+
+form p a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.input-field i {
+    margin-left: 15px;
+}
+
+.btn-field {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.btn-field button {
+    flex-basis: 48%;
+    background-color:var(--text-color);
+    color: var(--bg-color);
+    height: 40px;
+    border-radius: 20px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    transition: background 1s;
+}
+
+.input-group {
+    height: 260px;
+}
+
+.btn-field button.disable {
+    background:var(--text);
+    color: #555;
+
+}
+
